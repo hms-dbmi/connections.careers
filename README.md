@@ -13,6 +13,9 @@ Interviews were recorded in Spring 2019 and Summer 2019. Postproduction was comp
 ## License
 This website and all content are made available under the CC-BY 4.0 license.
 
+# Videos
+
+All video content is available on YouTube at https://www.youtube.com/playlist?list=PLDf0t9MNzNSrGllo6bZre8_8PUgy3R-p3.
 
 # Development
 
