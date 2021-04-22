@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/connections.careers/static/css/main.68f54b1a.chunk.css",
-    "main.js": "/connections.careers/static/js/main.2bbfbc9e.chunk.js",
-    "main.js.map": "/connections.careers/static/js/main.2bbfbc9e.chunk.js.map",
-    "runtime-main.js": "/connections.careers/static/js/runtime-main.474bb74a.js",
-    "runtime-main.js.map": "/connections.careers/static/js/runtime-main.474bb74a.js.map",
-    "static/js/2.ff82ba0a.chunk.js": "/connections.careers/static/js/2.ff82ba0a.chunk.js",
-    "static/js/2.ff82ba0a.chunk.js.map": "/connections.careers/static/js/2.ff82ba0a.chunk.js.map",
+    "main.css": "/connections.careers/static/css/main.b19c3189.chunk.css",
+    "main.js": "/connections.careers/static/js/main.4ad1669e.chunk.js",
+    "main.js.map": "/connections.careers/static/js/main.4ad1669e.chunk.js.map",
+    "runtime-main.js": "/connections.careers/static/js/runtime-main.31e9c503.js",
+    "runtime-main.js.map": "/connections.careers/static/js/runtime-main.31e9c503.js.map",
+    "static/js/2.51ecbc93.chunk.js": "/connections.careers/static/js/2.51ecbc93.chunk.js",
+    "static/js/2.51ecbc93.chunk.js.map": "/connections.careers/static/js/2.51ecbc93.chunk.js.map",
+    "static/js/3.29287501.chunk.js": "/connections.careers/static/js/3.29287501.chunk.js",
+    "static/js/3.29287501.chunk.js.map": "/connections.careers/static/js/3.29287501.chunk.js.map",
     "index.html": "/connections.careers/index.html",
-    "static/css/main.68f54b1a.chunk.css.map": "/connections.careers/static/css/main.68f54b1a.chunk.css.map",
-    "static/js/2.ff82ba0a.chunk.js.LICENSE.txt": "/connections.careers/static/js/2.ff82ba0a.chunk.js.LICENSE.txt",
+    "static/css/main.b19c3189.chunk.css.map": "/connections.careers/static/css/main.b19c3189.chunk.css.map",
+    "static/js/2.51ecbc93.chunk.js.LICENSE.txt": "/connections.careers/static/js/2.51ecbc93.chunk.js.LICENSE.txt",
     "static/media/Alexandra Signoriello.0e8cef21.jpg": "/connections.careers/static/media/Alexandra Signoriello.0e8cef21.jpg",
     "static/media/Cameron Coleman.1146e264.jpg": "/connections.careers/static/media/Cameron Coleman.1146e264.jpg",
     "static/media/Casey Overby Taylor.5bb972b1.jpg": "/connections.careers/static/media/Casey Overby Taylor.5bb972b1.jpg",
@@ -25,12 +27,13 @@
     "static/media/Sharon Chiang.9b3eec13.jpg": "/connections.careers/static/media/Sharon Chiang.9b3eec13.jpg",
     "static/media/Siddharth Pratap.37599e92.jpg": "/connections.careers/static/media/Siddharth Pratap.37599e92.jpg",
     "static/media/Zachary Lipton.eee36148.jpg": "/connections.careers/static/media/Zachary Lipton.eee36148.jpg",
-    "static/media/Zhiyong Lu.b243cc18.jpg": "/connections.careers/static/media/Zhiyong Lu.b243cc18.jpg"
+    "static/media/Zhiyong Lu.b243cc18.jpg": "/connections.careers/static/media/Zhiyong Lu.b243cc18.jpg",
+    "static/media/home.5dd0ac3f.png": "/connections.careers/static/media/home.5dd0ac3f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.474bb74a.js",
-    "static/js/2.ff82ba0a.chunk.js",
-    "static/css/main.68f54b1a.chunk.css",
-    "static/js/main.2bbfbc9e.chunk.js"
+    "static/js/runtime-main.31e9c503.js",
+    "static/js/2.51ecbc93.chunk.js",
+    "static/css/main.b19c3189.chunk.css",
+    "static/js/main.4ad1669e.chunk.js"
   ]
 }
