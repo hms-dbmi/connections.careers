@@ -5,19 +5,23 @@ import ReactMarkdown from "react-markdown";
 import gfm from "remark-gfm";
 import rehypeRaw from 'rehype-raw'
 import home from './rsc/home.png';
+import * as qs from 'qs';
 import './App.css';
 
 function App(props) {
 
   // page path from URL
-  const curPage = props.location.pathname;
+  const urlParams = qs.parse(props.location.search, { ignoreQueryPrefix: true });
+  const curPage = props.location.pathname // urlParams?.page; // 
+  
   const participantsPages = data.map((d, i) => `/${i+1}`);
   const allPages = ['/home', '/participants', '/about'].concat(participantsPages);
   const selectedMenu = curPage && allPages.find(d => d === curPage) ? curPage : allPages[0];
 
   const getNameTitle = (d) => d.name + (d.title ? `, ${d.title}` : '');
 
-  console.log(curPage.split('/')[1]);
+  // DEBUG
+  // console.log(props.location, curPage);//.split('/')[1]);
 
   return (
     <div className="app">
@@ -29,9 +33,12 @@ function App(props) {
           &nbsp;Career Paths in Biomedical Informatics
         </span>
         <nav className="nav">
-          <span className="nav-link" onClick={() => window.open(pkg.homepage + 'home', "_self")}>Home</span>
-          <span className="nav-link" onClick={() => window.open(pkg.homepage + 'participants', "_self")}>Participants</span>
-          <span className="nav-link" onClick={() => window.open(pkg.homepage + 'about', "_self")}>About</span>
+          <a className="nav-link" href='#/home'>Home</a>
+          <a className="nav-link" href='#/participants'>Participants</a>
+          <a className="nav-link" href='#/about'>About</a>
+          {/* <span className="nav-link" onClick={() => window.open(pkg.homepage + '#/home', "_self")}>Home</span>
+          <span className="nav-link" onClick={() => window.open(pkg.homepage + '#/participants', "_self")}>Participants</span>
+          <span className="nav-link" onClick={() => window.open(pkg.homepage + '#/about', "_self")}>About</span> */}
         </nav>
       </div>
       <div className="body">
@@ -52,12 +59,13 @@ function App(props) {
         {selectedMenu === '/participants' ?
           <div className="gallery">
             {data.map((d, i) => (
-              <div className='item' onClick={() => {window.open(pkg.homepage + (i + 1), "_self")}} key={d.name}>
+              // <div className='item' onClick={() => {window.open(pkg.homepage + '#/' + (i + 1) + '', "_self")}} key={d.name}>
+              <a className='item' href={'#/' + (i + 1)} key={d.name}>
                 <img className="headshot" src={d.img}/>
                 <div className='p-name-title'>
                 {getNameTitle(d)}
                 </div>
-              </div>
+              </a>
             ))}
           </div> : null
         }

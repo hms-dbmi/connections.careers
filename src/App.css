@@ -38,6 +38,7 @@
   color: black;
   line-height: 24px;
   transition: color ease-out 0.1s;
+  text-decoration: none;
 }
 .nav-link:hover {
   color: #AD192D;
@@ -83,6 +84,7 @@
 }
 
 .item {
+  text-decoration: none;
   font-family: Roboto Condensed, Helvetica, sans-serif, Arial;
   font-weight: bold;
   cursor: pointer;
@@ -108,7 +110,7 @@
     float: none;
   }
   .subtitle {
-    font-size: 12px;
+    font-size: 16px;
   }
   .item {
     width: 50%;
@@ -120,6 +122,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  .subtitle {
+    display: block;
+  }
   .item {
     width: 100%;
   }
