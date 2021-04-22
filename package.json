@@ -1,7 +1,7 @@
 {
   "name": "connections.careers",
   "version": "0.1.0",
-  "homepage": "http://sehilyi.github.io/connections.careers/",
+  "homepage": "http://hms-dbmi.github.io/connections.careers/",
   "private": true,
   "license": "CC-BY-4.0",
   "dependencies": {
