@@ -67,7 +67,7 @@ export const data = [
         csTitle: 'Chase R. Parsons, DO, MBI, FAAP',
         csYt: 'cnvqiDKrUys',
         csBody: Chase_Parsons_md,
-        institution: 'Harvard University (Medical School)'
+        institution: 'Harvard Medical School'
     },
     {
         name: 'Jonathan Lustgarten',
