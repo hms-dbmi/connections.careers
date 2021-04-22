@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/connections.careers/static/css/main.68f54b1a.chunk.css",
-    "main.js": "/connections.careers/static/js/main.46d9ca85.chunk.js",
-    "main.js.map": "/connections.careers/static/js/main.46d9ca85.chunk.js.map",
+    "main.js": "/connections.careers/static/js/main.5f1004e2.chunk.js",
+    "main.js.map": "/connections.careers/static/js/main.5f1004e2.chunk.js.map",
     "runtime-main.js": "/connections.careers/static/js/runtime-main.474bb74a.js",
     "runtime-main.js.map": "/connections.careers/static/js/runtime-main.474bb74a.js.map",
-    "static/js/2.5ac8ea20.chunk.js": "/connections.careers/static/js/2.5ac8ea20.chunk.js",
-    "static/js/2.5ac8ea20.chunk.js.map": "/connections.careers/static/js/2.5ac8ea20.chunk.js.map",
+    "static/js/2.ff82ba0a.chunk.js": "/connections.careers/static/js/2.ff82ba0a.chunk.js",
+    "static/js/2.ff82ba0a.chunk.js.map": "/connections.careers/static/js/2.ff82ba0a.chunk.js.map",
     "index.html": "/connections.careers/index.html",
     "static/css/main.68f54b1a.chunk.css.map": "/connections.careers/static/css/main.68f54b1a.chunk.css.map",
-    "static/js/2.5ac8ea20.chunk.js.LICENSE.txt": "/connections.careers/static/js/2.5ac8ea20.chunk.js.LICENSE.txt",
+    "static/js/2.ff82ba0a.chunk.js.LICENSE.txt": "/connections.careers/static/js/2.ff82ba0a.chunk.js.LICENSE.txt",
     "static/media/Alexandra Signoriello.0e8cef21.jpg": "/connections.careers/static/media/Alexandra Signoriello.0e8cef21.jpg",
     "static/media/Cameron Coleman.1146e264.jpg": "/connections.careers/static/media/Cameron Coleman.1146e264.jpg",
     "static/media/Casey Overby Taylor.5bb972b1.jpg": "/connections.careers/static/media/Casey Overby Taylor.5bb972b1.jpg",
@@ -29,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.474bb74a.js",
-    "static/js/2.5ac8ea20.chunk.js",
+    "static/js/2.ff82ba0a.chunk.js",
     "static/css/main.68f54b1a.chunk.css",
-    "static/js/main.46d9ca85.chunk.js"
+    "static/js/main.5f1004e2.chunk.js"
   ]
 }
