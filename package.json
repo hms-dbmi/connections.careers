@@ -1,8 +1,9 @@
 {
-  "name": "app",
+  "name": "connections.careers",
   "version": "0.1.0",
   "homepage": "http://sehilyi.github.io/connections.careers/",
   "private": true,
+  "license": "CC-BY-4.0",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
