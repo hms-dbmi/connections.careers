@@ -31,12 +31,12 @@ function App(props) {
   return (
     <div className="app">
       <div className="header">
-        <span
+        <a
           className="title"
-          onClick={() => window.open(pkg.homepage, "_self")}
+          href="#/home"
         >
           Connections&nbsp;
-        </span>
+        </a>
         <span className="subtitle">
           &nbsp;Career Paths in Biomedical Informatics
         </span>
@@ -74,9 +74,12 @@ function App(props) {
         </nav>
       </div>
       <div className="body">
-        {/* --------------- LIST OF PARTICIPANTS --------------- */}
+        {/* --------------- HOME --------------- */}
         {selectedMenu === "/home" ? (
           <div className="home">
+            <p className='home-title plain-text'>
+              This video project documents the training experiences of predoctoral and postdoctoral trainees from 16 National Library of Medicine-funded biomedical informatics and data science training programs.
+            </p>
             <div className="participant-detail-video">
               <iframe
                 width="100%"
@@ -88,20 +91,31 @@ function App(props) {
                 allowFullScreen
               />
             </div>
-            <p className="home-text">
-              (placeholder) Trainees from across the 16 National of Library of
-              Medicine (NLM) university-based Biomedical Informatics and Data
-              Science Research Trainees programs will be featured in 16-part
-              video series titled Connections: Career Paths in Biomedical
-              Informatics. The 16 video testimonials capture the career paths of
-              NLM training grant graduates.
+            <p className="home-text plain-text">
+              America’s biomedical informatics training programs are preparing individuals from diverse personal, educational, and professional backgrounds for a broad range of meaningful career opportunities. These opportunities enable program graduates to leverage biomedical informatics in basic research, medicine, healthcare systems, and other increasingly data-driven areas.
               <br />
               <br />
-              The video project is funded by the National Library of Medicine
-              Administrative Supplement Funds to the Harvard Medical School
-              Biomedical Informatics and Data Science Training program,
-              3T15LM007092-26S1. The videos will be available under the CC-BY
-              4.0 license.
+              As of 2021, among these training programs are 16 <a href="https://www.nlm.nih.gov/ep/GrantTrainInstitute.html">National Library of Medicine training programs</a> at Columbia University, Harvard University, Indiana University, Oregon Health & Science University, Rice University, Stanford University, State University of New York at Buffalo, University of California San Diego, University of Colorado, University of North Carolina Chapel Hill, University of Pittsburgh, University of Utah, University of Washington, University of Wisconsin Madison, Vanderbilt University, and Yale University.
+              <br />
+              <br />
+              At each program, individuals from diverse backgrounds come together for a distinct moment in time. These individuals include computer scientists, statisticians, engineers, and data scientists who are interested in learning about and contributing to biology, medicine, and healthcare. There are also individuals from across the healthcare sector—clinical scientists, biologists, medical doctors, healthcare administrators, and entrepreneurs—who want to gain data-related skills to improve health and advance their careers. Program participants are excited to be exposed to individuals from different backgrounds, learn together, and work collaboratively to improve health. Connections: Career Paths in Biomedical Informatics documents their stories.
+              <br />
+              <br />
+              Interviews were recorded in Spring 2019 and Summer 2019.
+            </p>
+          </div>
+        ) : null}
+        {/* --------------- ABOUT --------------- */}
+        {selectedMenu === "/about" ? (
+          <div className="about">
+            <p className='about-text plain-text'>
+              Connections is funded by the National Library of Medicine Administrative Supplement Funds to the <a href="https://dbmi.hms.harvard.edu/education/nlm-biomedical-informatics-data-science-fellowship">Harvard Medical School Biomedical Informatics and Data Science Training program</a>, 3T15LM007092-26S1. 
+              <h2>Principal Investigators</h2>
+              <a href="https://dbmi.hms.harvard.edu/people/nils-gehlenborg">Nils Gehlenborg, PhD</a> and <a href="https://dbmi.hms.harvard.edu/people/alexa-mccray">Alexa McCray, PhD</a> in the Department of Biomedical Informatics at Harvard Medical School led the production of this video project.
+              <h2>Production Dates</h2>
+              Interviews were recorded in Spring 2019 and Summer 2019. Postproduction was completed in 2020. 
+              <h2>License</h2>
+              This website and all content are made available under the <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0 license</a>.
             </p>
           </div>
         ) : null}
@@ -127,6 +141,9 @@ function App(props) {
           <div key={curPage} className="participant-detail">
             <div className="participant-detail-title">
               {data[+curPage.split("/")[1] - 1].csTitle}
+              <div className="participant-detail-subtitle">
+                {data[+curPage.split("/")[1] - 1].institution}
+              </div>
             </div>
             <div className="participant-detail-video">
               <iframe
@@ -167,17 +184,7 @@ function App(props) {
         ) : null}
       </div>
       <div className="footer">
-        <div>
-          © 2021{" "}
-          <a href="https://dbmi.hms.harvard.edu/" target="_blank">
-            Department of Biomedical Informatics
-          </a>{" "}
-          /{" "}
-          <a href="https://hms.harvard.edu/" target="_blank">
-            Harvard Medical School
-          </a>
-        </div>
-        {/* <img className="footer-logo" src={footer_logo}/> */}
+        © Produced at <a href="https://dbmi.hms.harvard.edu/" target="_blank">Harvard Medical School</a> with funding by the <a href="https://www.nlm.nih.gov/" target="_blank">National Library of Medicine</a>. All materials licensed under CC-BY 4.0.
       </div>
     </div>
   );
