@@ -184,7 +184,7 @@ function App(props) {
         ) : null}
       </div>
       <div className="footer">
-        © Produced at <a href="https://dbmi.hms.harvard.edu/" target="_blank">Harvard Medical School</a> with funding by the <a href="https://www.nlm.nih.gov/" target="_blank">National Library of Medicine</a>. All materials licensed under CC-BY 4.0.
+        Produced at <a href="https://dbmi.hms.harvard.edu/" target="_blank">Harvard Medical School</a> with funding by the <a href="https://www.nlm.nih.gov/" target="_blank">National Library of Medicine</a>. All materials licensed under CC-BY 4.0.
       </div>
     </div>
   );
