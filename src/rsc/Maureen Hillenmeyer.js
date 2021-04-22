@@ -3,7 +3,7 @@ export const Maureen_Hillenmeyer_md = `
 
 ## A Passion for Research
 
-Raised in a suburb of Indianpolis, Indiana, Maureen Hillenmeyer was interested in science and technology at a young age, due in part to her parents being focused on computers. Maureen recalls being fascinated by biology, going to NASA’s space camp, and thinking about becoming a doctor.  
+Raised in a suburb of Indianapolis, Indiana, Maureen Hillenmeyer was interested in science and technology at a young age, due in part to her parents being focused on computers. Maureen recalls being fascinated by biology, going to NASA’s space camp, and thinking about becoming a doctor.  
 
 Recruited to the University of Notre Dame as a competitive swimmer, Maureen majored in biology and took classes in computer science. With the human genome project underway and bioinformatics flourishing, Maureen was interested in the connection between biology and computers. She also had the opportunity to participate in undergraduate research in a lab at Notre Dame. She did basic programming to analyze large amounts of DNA sequencing data.
 
@@ -21,7 +21,7 @@ While pursuing her PhD, Maureen was exposed to the entrepreneurial environment a
 
 After completing her PhD, Maureen stayed at Stanford as a postdoc working in a lab focused on the discovery and engineering of natural products. Natural products are drugs from nature, which includes drug like penicillin and statins. These are drugs found in microbes and plants around the world. 
 
-Historically, natural product drugs have been discovered by accident or brute force. But Maureen thought it was possible to improve the process for discovering natural drugs by adding computation to the equation. She downloaded all publicly available genome sequences of microbes from around the world—and was blown away by the number of genomes or sequences that were encoding natural drugs that no one had studied. By using computation it is possible to sift through hundreds of thousands of genomes to pinpoint and priortize the ones that are encoding drugs relevant to human patients. These efforts have led to breakthroughs on the experimental and computation side.
+Historically, natural product drugs have been discovered by accident or brute force. But Maureen thought it was possible to improve the process for discovering natural drugs by adding computation to the equation. She downloaded all publicly available genome sequences of microbes from around the world—and was blown away by the number of genomes or sequences that were encoding natural drugs that no one had studied. By using computation it is possible to sift through hundreds of thousands of genomes to pinpoint and prioritize the ones that are encoding drugs relevant to human patients. These efforts have led to breakthroughs on the experimental and computation side.
 
 Based on this learning, Maureen could see a clear path to commercialization. As a result, she participated in co-founding Hexagon Bio as a private company to commercialize these research ideas. She has raised $20 million in venture capital for Hexagon, which has 24 employees. Maureen is spending her time as a scientist-CEO focusing on science, management, and fundraising; looking ahead to preclinical and eventually clinical work; and starting to talk to potential partners about commercialization.
 

@@ -17,7 +17,7 @@ Zack moved to California and undertook applying to PhD programs. While completin
 
 ## From Saxophonist to Professor?
 
-In retrospect, Zack says he was incredibly naïve about making the jump from music to a computer science PhD program. However, at times detailed plans and formal qualifications are less important than interest, curiousity, hard work, and good fortune.
+In retrospect, Zack says he was incredibly naïve about making the jump from music to a computer science PhD program. However, at times detailed plans and formal qualifications are less important than interest, curiosity, hard work, and good fortune.
 
 He was fortunate to get taken under the wing of faculty members who served as advisors and mentors. He was also lucky that early in his PhD he identified a problem to research that others had overlooked. This research led to Zack getting a paper published in just a few months.
 
@@ -29,7 +29,7 @@ Zack found research exciting and addictive. The culture of research is figuring 
 
 While Zack was working on his PhD, breakthroughs were taking place in machine learning and natural language processing, as people figured out how to train massive neural networks and deep learning emerged. It was an exciting time.
 
-Zack was subsequently invited to inverview for a faculty position at Carnegie Mellon, which happened sooner than he thought. He got the position, which is a joint appointment in the school of business and the machine learning department. Zack loves the freedom and autonomy of deciding research questions to focus on. He finds the academic environment and the interaction with amazing students exhilerating.
+Zack was subsequently invited to interview for a faculty position at Carnegie Mellon, which happened sooner than he thought. He got the position, which is a joint appointment in the school of business and the machine learning department. Zack loves the freedom and autonomy of deciding research questions to focus on. He finds the academic environment and the interaction with amazing students exhilarating.
 
 In addition, one of his focus areas is using his knowledge and tools to work on meaningful problems in the world of healthcare, which are some of the most important problems in society. These problems are a place where machine learning can make a meaningful difference. 
 

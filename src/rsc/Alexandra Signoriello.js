@@ -5,7 +5,7 @@ export const Alexandra_Signoriello_md =
 ## From STEM to Informatics
 Growing up, Lexi Signoriello was a STEM kid. In addition to being a voracious reader of mysteries and science books and loving the outdoors, she liked math, science (especially biology), and statistics. 
 
-In college, Lexi studied math, biology, and computer science. These interests led Lexi to curate a curriculum that included a biostatistics minor. She also took a course in algorithms, which involved using algorithms in biology. This was Lexi’s first exposure to biostatistics and biomedial informatics, which she found extremely interesting.
+In college, Lexi studied math, biology, and computer science. These interests led Lexi to curate a curriculum that included a biostatistics minor. She also took a course in algorithms, which involved using algorithms in biology. This was Lexi’s first exposure to biostatistics and biomedical informatics, which she found extremely interesting.
 
 During college, Lexi participated in research that involved building computational models for disease spreading through a hospital. Unlike taking classes, where there is a right answer, with research, the exciting part is trying to find an answer. This experience ignited a passion in research. Researchers think independently, form questions, and conduct research to find answers.
 
@@ -15,7 +15,7 @@ Lexi’s program at Yale had five women, who bonded, collaborated, supported eac
 
 > “There are so many things that bioinformatics means . . . It is really an encompassing, huge field. It’s not this one specific, very precise research field.”
 
-During her master’s and PhD programs, Lexi worked on cancer research, studying the shape of immune cells infiltrating melanoma tumors. She was also a TA and helped teach a bioinformatics class. As a result of her PhD experience, Lexi feels she became a better programer, a better researcher, and more of an independent thinker.
+During her master’s and PhD programs, Lexi worked on cancer research, studying the shape of immune cells infiltrating melanoma tumors. She was also a TA and helped teach a bioinformatics class. As a result of her PhD experience, Lexi feels she became a better programmer, a better researcher, and more of an independent thinker.
     
 ## Leveraging Biomedical Informatics Skills
 Mentoring was important throughout Lexi’s life. As a result, Lexi, was inspired to mentor others. During her program at Yale, each year she would serve as a mentor, helping one student with their senior thesis. She also mentored middle school girls, working with them on science experiments and encouraging them to consider science and to make their own path. In addition, Lexi taught coding classes to middle schoolers and was also a yoga instructor. 

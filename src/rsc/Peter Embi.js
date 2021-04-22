@@ -19,7 +19,7 @@ Throughout this fellowship and master’s, Peter developed knowledge in areas su
 
 ## Practicing Medicine and Dabbling in Informatics 
 
-Upon completing his program in Oregon, Peter went on to a fellowship in rheumatology and immunology at the Clevelend Clinic. Looking back, Peter said, “I was going to be a rheumatologist who had this niche in informatics rather than the way it turned out.”
+Upon completing his program in Oregon, Peter went on to a fellowship in rheumatology and immunology at the Cleveland Clinic. Looking back, Peter said, “I was going to be a rheumatologist who had this niche in informatics rather than the way it turned out.”
 
 ## Transforming the Field
 
@@ -27,7 +27,7 @@ When Peter joined the Cleveland Clinic, the organization was deploying its first
 
 With a passion for teaching and research, Peter decided to stay in academia. His first faculty position was at the University of Cincinnati (UC) as a rheumatologist while continuing work on using EHRs to enhance research. During his six years at UC he also developed a business plan that led to the establishment of a Center for Health Informatics.   
 
-Peter’s next step took him to Ohio State University (OSU) as vice chair of the Department of Biomedical Informatics. While at OSU, Peter had the idea of a new position at the intersection of healthcare systems and research—the chief research information officer (CRIO). He sold this idea interally and was the first person in the country to serve as a CRIO, an idea that has grown nationally.
+Peter’s next step took him to Ohio State University (OSU) as vice chair of the Department of Biomedical Informatics. While at OSU, Peter had the idea of a new position at the intersection of healthcare systems and research—the chief research information officer (CRIO). He sold this idea internally and was the first person in the country to serve as a CRIO, an idea that has grown nationally.
 
 In 2016, Peter was selected as president and CEO of the Regenstrief Institute. Regenstrief is legendary because of its innovations and impact. It is known for its Center for Biomedical Informatics, as well as strengths in health services research and aging research. Regenstrief is unique as an institute with health services researchers, informaticians, implementation scientists, and experts in domains such as aging and brain health.
 

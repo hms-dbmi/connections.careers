@@ -21,7 +21,7 @@ In pursuing an MBI, Sidd saw himself as a bench scientist with knowledge of how 
 
 ## Building a Core Lab
 
-Upon compleing his MBI, Sidd had the desire to build something. He went back to Meharry to participate in building a core laboratory to sequence genomes of local patients. He also saw the opportunity to teach. His faculty appointment at Meharry allows him to conduct research, build the core lab, and teach biomedical informatics.  
+Upon completing his MBI, Sidd had the desire to build something. He went back to Meharry to participate in building a core laboratory to sequence genomes of local patients. He also saw the opportunity to teach. His faculty appointment at Meharry allows him to conduct research, build the core lab, and teach biomedical informatics.  
 
 > “I think the [MBI] degree was like an entry way.”
 

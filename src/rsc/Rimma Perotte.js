@@ -7,7 +7,7 @@ As a child, Rimma Perotte loved math and science and felt it was cool to be smar
 
 Part of the student experience at Northeastern involves internships. Seeking internships that combined her interests in math and biology, as well as computer science, she interned in a genetics lab (which she liked), a chemistry lab (which wasn’t for her), and at the Center for Biomedical Informatics at Harvard Medical School (CBMI), which exposed her to the world of bioinformatics.
 
-While at CBMI, Rimma became fascinated by the emerging field of biomedical informatics. She saw this as a potential non-clinicinal career in healthcare where she could use her skills in math and computer science to make a difference. She also realized that with health systems and providers adopting electronic health records (EHRs), the amount of data was starting to explode. She heard a great deal of conversation such as, “We’re getting more and more data, but we have no idea what to do with it.”
+While at CBMI, Rimma became fascinated by the emerging field of biomedical informatics. She saw this as a potential non-clinical career in healthcare where she could use her skills in math and computer science to make a difference. She also realized that with health systems and providers adopting electronic health records (EHRs), the amount of data was starting to explode. She heard a great deal of conversation such as, “We’re getting more and more data, but we have no idea what to do with it.”
 
 During her time at CBMI Rimma sensed tremendous enthusiasm for biomedical informatics. It didn’t feel like a stodgy academic environment. Surrounded by smart, interesting, passionate PhDs, Rimma felt that proceeding to get a master’s and a PhD in biomedical informatics seemed like the obvious next step.
 
@@ -25,7 +25,7 @@ Rimma has been involved in starting a new group at the hospital doing research a
 
 > “We were asked to take our biomedical expertise and do research on the hospital. . . . Hospitals are trying pilots all the time. Making sure these pilots are evaluated in a rigorous way is what we’re working on. That’s really exciting to me.”
 
-Rimma enjoyes working as part of a diverse, collaborative team in solving important, complex problems that make a meaningful difference in patients’ lives and in healthcare. She also loves that her skills as an informaticist are valued by her clinical colleaugues and that her work is helping doctors and patients.
+Rimma enjoyes working as part of a diverse, collaborative team in solving important, complex problems that make a meaningful difference in patients’ lives and in healthcare. She also loves that her skills as an informaticist are valued by her clinical colleagues and that her work is helping doctors and patients.
 
 In addition, Rimma is part of the faculty at Columbia’s Biomedical Informatics Department. She teaches a practical class to future informaticians about what really happens in hospitals. Classes include discussions about how hospitals really operate, about the patient experience, and about physicians’ needs at the point of care. This is real-world information she felt was lacking from biomedical informatics programs. 
 

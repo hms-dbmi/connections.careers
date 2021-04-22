@@ -11,7 +11,7 @@ While working on his master’s, a computer science progressor suggested that Zh
 
 > “I had never thought about applying computers to biology . . . I found it fascinating that you can use computer science to solve a biology or medicine problem.”
 
-Zhiyong’s interest in the intersection of computer science and biology led him to attend two bioinformatics conferences, which only deepened his curiousity. He made contacts in the field and decided to pursue a PhD in bioinformatics at the University of Colorado School of Medicine.
+Zhiyong’s interest in the intersection of computer science and biology led him to attend two bioinformatics conferences, which only deepened his curiosity. He made contacts in the field and decided to pursue a PhD in bioinformatics at the University of Colorado School of Medicine.
 
 ## Becoming a Researcher
 

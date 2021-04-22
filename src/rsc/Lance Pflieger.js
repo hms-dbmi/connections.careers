@@ -7,15 +7,15 @@ Growing up in Utah in a small rural town of 9,000, Lance Pflieger spent a great 
 
 Lance decided to attend Utah State University where he studied biology and took pre-med courses, to preserve the option to go into medicine. As an undergrad, Lance was part of a research program where he got to spend time in a lab, which transformed him. He decided he didn’t want to be a clinician and preferred becoming a scientist. 
 
-During a subsequent stint working as a lab tech, Lance was exposed to bioinformatics, which sat at the intersection of two passions: biology and computer science. This field spoke to him and he concluded, “That’s where I want to be.” He proceed to look into graduate programs and decided to pursue a PhD in biomedical informatics at the University of Utah. 
+During a subsequent stint working as a lab tech, Lance was exposed to bioinformatics, which sat at the intersection of two passions: biology and computer science. This field spoke to him and he concluded, “That’s where I want to be.” He proceeds to look into graduate programs and decided to pursue a PhD in biomedical informatics at the University of Utah. 
 
 Lance discovered that the biomedical informatics program at the University of Utah was one of the oldest and best programs in the country. Some of the founders of the industry came from Utah and the University of Utah has resources—including the Utah population database—along with multiple industry collaborators.
 
-Immediately upon starting the PhD program, Lance said, “This whole world opened up to me.” He learned about medical informatics, public health informatics, and more. He said he felt like a kid in a candy store, overwhelmed by the challenge of where to focus. He was able to do work in cancer research, in neurology research, and in predictive modeling related to pharmacology. He found the breadth of his experience as astounding. Ultimately, he focused his research on uncertainty quantification and reproducability in next-generation sequencing.
+Immediately upon starting the PhD program, Lance said, “This whole world opened up to me.” He learned about medical informatics, public health informatics, and more. He said he felt like a kid in a candy store, overwhelmed by the challenge of where to focus. He was able to do work in cancer research, in neurology research, and in predictive modeling related to pharmacology. He found the breadth of his experience as astounding. Ultimately, he focused his research on uncertainty quantification and reproducibility in next-generation sequencing.
 
 ## Endless Possibilities
 
-While the numerous possibilities in his PhD program made it difficult to narrow his focus, Lance faced a similar challenge related to deciding what to do upon completing his PhD He wasn’t sure if he wanted to work in industry or pursue an academic career. He ultimately decided that his next step would be working in cancer research at City of Hope Comprehensive Cancer Institute outside of Los Angeles.
+While the numerous possibilities in his PhD program made it difficult to narrow his focus, Lance faced a similar challenge related to deciding what to do upon completing his PhD. He wasn’t sure if he wanted to work in industry or pursue an academic career. He ultimately decided that his next step would be working in cancer research at City of Hope Comprehensive Cancer Institute outside of Los Angeles.
 
 He was excited to live in a new place and to work on exciting, challenging research related to breast cancer and ovarian cancer. The problem he is working on is a translational problem. His computational work could be put into a clinical trial within a few years. 
 

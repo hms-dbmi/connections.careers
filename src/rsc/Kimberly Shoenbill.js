@@ -6,7 +6,7 @@ Growing up in Kenosha, Wisconsin, Kim Shoenbill enjoyed learning about science, 
 
 Kim was the sixth of seven children, but was the first child in her family to go to college and undertook the process largely alone. She put herself through Marquette University, where she majored in psychology and took the pre-med prerequisites. During college she was a resident advisor and worked at a hospital on the med-surg floor. 
 
-As she completed college, Kim was wavering between pursuing psychology and medicine. She took a year off to earn some money. During that year, she decided that while counselling was appealing, medicine provided the ability to treat the whole person. 
+As she completed college, Kim was wavering between pursuing psychology and medicine. She took a year off to earn some money. During that year, she decided that while counseling was appealing, medicine provided the ability to treat the whole person. 
 
 Kim proceeded to medical school at the University of Wisconsin (UW), which has a strong primary care focus. As a med student, she had a foray into research, assisting a professor studying amyotrophic lateral sclerosis (ALS) by analyzing data. Kim said, “We were using data to do informatics before it was called informatics.” She learned that both clinical care and research are team sports.
 

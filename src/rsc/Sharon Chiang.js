@@ -11,7 +11,7 @@ Sharon followed this encouragement and took classes outside of the traditional p
 
 Her interest in statistics led Sharon to take an introductory stats course followed by classes in data mining, machine learning, and Bayesian modeling. She liked statistics so much that this became her major.
 
-As was her plan, upon completing her undergraduate studies, Sharon proceeded on to medical school. In her first year of medical school, while shadowing a physician, she saw an epileptic patient have an unexpected seizure. This experience heightened Sharon’s interest in specializing in neurology and also spurred her curiousity to use data and statistical models to better understand and predict seizures.
+As was her plan, upon completing her undergraduate studies, Sharon proceeded on to medical school. In her first year of medical school, while shadowing a physician, she saw an epileptic patient have an unexpected seizure. This experience heightened Sharon’s interest in specializing in neurology and also spurred her curiosity to use data and statistical models to better understand and predict seizures.
 
 After Sharon’s second year of medical school, she decided to embark on an unconventional path. She took a break from medical school to get her PhD in statistics, as she wanted to strengthen her skills in developing statistical models and conducting research. She then returned to medical school to complete her MD, as she could not see herself not being a physician.
 

@@ -4,7 +4,7 @@ export const Jonathan_Lustgarten_md = `
 ## Dreaming of Becoming a Vet
 Born in North Bergen County, New Jersey, Jonathan Lustgarten had many interests. He loved sports, animals, the outdoors, geology, paleontology, and computers. He grew up wanting to become a veterinarian and as a child even did research on endangered species.
 
-In high school, Jonathan was fascinated by biology and computers, and was first exposed to biomedical informatics. An advisor suggested that he consider Carnegie Mellon Univeristy (CMU), where he could continue studying biology and computers. At CMU, Jonathan majored in computational biology and minored in bio-organic chemistry, preparing himself for veterinary school.  
+In high school, Jonathan was fascinated by biology and computers, and was first exposed to biomedical informatics. An advisor suggested that he consider Carnegie Mellon University (CMU), where he could continue studying biology and computers. At CMU, Jonathan majored in computational biology and minored in bio-organic chemistry, preparing himself for veterinary school.  
 
 In contemplating his post-college plans, Jonathan explored applying to veterinary schools. He found that the acceptance rate of undergrads was only about 2%. He also found that applicants to vet school with a master’s or a PhD had more than a 30% acceptance rate.
 
@@ -29,7 +29,7 @@ VCA’s goal is to empower Jonathan to improve the organization’s electronic m
 
 > “We’re crafting a new vision for what the electronic medical record can be. . . . Ideally, everything I’m doing will affect the clinician.”
 
-An example of the power of an integrated electronic medical record occurred when some dogs appeared to become sick after consuming contamined dog treats made by a company in China. Using the electronic system, Jonathan conducted data mining to look across VCA to see dogs that appeared to have been diagnosed with a specific syndrome. Using this information, it was possible to go back to dog owners to ask, “What treats are you feeding your dog?” This quickly confirmed that the treats were to blame. Vets could then treat these dogs and could warn other pet owners not to feed their dogs these contaminated treats.
+An example of the power of an integrated electronic medical record occurred when some dogs appeared to become sick after consuming contaminated dog treats made by a company in China. Using the electronic system, Jonathan conducted data mining to look across VCA to see dogs that appeared to have been diagnosed with a specific syndrome. Using this information, it was possible to go back to dog owners to ask, “What treats are you feeding your dog?” This quickly confirmed that the treats were to blame. Vets could then treat these dogs and could warn other pet owners not to feed their dogs these contaminated treats.
 
 As the amount of data continues to grow, Jonathan feels the need will grow in veterinary medicine for more people with informatics tools and expertise. He encouraged those interested in informatics to not shy away from the veterinary world, but to look for organizations that are open to the idea of using informatics.
 
