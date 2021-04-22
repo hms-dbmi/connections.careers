@@ -209,7 +209,7 @@
 .prev-button:hover,
 .next-button:hover {
   color: #AD192D;
-  border-bottom: 4px solid #AD192D;
+  /* border-bottom: 4px solid #AD192D; */
 }
 .prev-button-hidden {
   opacity: 0;
@@ -266,6 +266,18 @@
   .participant-detail-video,
   .participant-detail-video iframe {
     height: 400px !important;
+  }
+  .next-prev-button {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .next-prev-button a {
+    display: block;
+    line-height: 50px;
+  }
+  .next-button {
+    float: none;
   }
 }
 

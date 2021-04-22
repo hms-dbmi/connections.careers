@@ -113,7 +113,7 @@ function App(props) {
         {/* --------------- PARTICIPANTS DETAIL --------------- */}
         {participantsPages.includes(curPage) ? (
           <>
-          <div className="participant-detail">
+          <div key={curPage} className="participant-detail">
             <div className="participant-detail-title">
               {data[+curPage.split("/")[1] - 1].csTitle}
             </div>
