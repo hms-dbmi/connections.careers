@@ -1,23 +1,31 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import { hydrate, render } from "react-dom";
 import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { Switch, HashRouter, BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, HashRouter, Route } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
+import './index.css';
 
-ReactDOM.render(
-  <HashRouter>
-    <ScrollToTop>
-      <Switch>
-        <Route component={App} />
-      </Switch>
-    </ScrollToTop>
-  </HashRouter>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const rootElement = document.getElementById('root');
+if (rootElement.hasChildNodes()) {
+  hydrate(
+    <BrowserRouter>
+      <ScrollToTop>
+        <Switch>
+          <Route component={App}/>
+        </Switch>
+      </ScrollToTop>
+    </BrowserRouter>,
+    rootElement
+  );
+} else {
+  render(
+    <BrowserRouter>
+      <ScrollToTop>
+        <Switch>
+          <Route component={App}/>
+        </Switch>
+      </ScrollToTop>
+    </BrowserRouter>,
+    rootElement
+  );
+}

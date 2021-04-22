@@ -1,10 +1,7 @@
 .app {
   font-family: Roboto, Helvetica, sans-serif, Arial;
   max-width: 1000px;
-  margin: 0 auto; 
-
-  /* TEST */
-  /* background-color: lightgray; */
+  margin: 0 auto;
 }
 .plain-text {
   font-size: 20px;
@@ -16,8 +13,8 @@
   border-bottom: 2px dotted black;
 }
 .plain-text a:hover {
-  color: #066FA8;
-  border-bottom: 4px solid #066FA8;
+  color: #066fa8;
+  border-bottom: 4px solid #066fa8;
 }
 
 .header {
@@ -26,17 +23,15 @@
   padding: 20px;
   color: black;
   transition: color ease-out 0.1s;
-  /* border-bottom: 3px solid black; */
-  /* background-color: gray; */
 }
 .title {
-  font-weight: bold; 
+  font-weight: bold;
   cursor: pointer;
   color: black;
   text-decoration: none;
 }
 .title:hover {
-  color: #066FA8;
+  color: #066fa8;
 }
 .subtitle {
   border-left: 1px solid black;
@@ -56,14 +51,14 @@
   text-decoration: none;
 }
 .nav-link:hover {
-  color: #066FA8;
-  border-bottom: 4px solid #066FA8;
+  color: #066fa8;
+  border-bottom: 4px solid #066fa8;
 }
 
 .nav-link-selected {
   font-weight: bold;
-  color: #066FA8;
-  border-bottom: 4px solid #066FA8;
+  color: #066fa8;
+  border-bottom: 4px solid #066fa8;
 }
 
 .body {
@@ -100,9 +95,9 @@
   font-family: Roboto Condensed, Helvetica, sans-serif, Arial;
   font-weight: bold;
   font-size: 36px;
-  margin: 20px; 
+  margin: 20px;
   padding-left: 10px;
-  border-left: 5px solid #066FA8;
+  border-left: 5px solid #066fa8;
 }
 
 .gallery {
@@ -133,13 +128,12 @@
   width: calc(100% - 20px);
   height: 200px;
   object-fit: cover;
-  outline: 10px solid #066FA800;
+  outline: 10px solid #066fa800;
   outline-offset: -10px;
   transition: outline-color ease-out 0.1s;
 }
 
 .p-name-title {
-  /* 10px is for padding for text ends */
   width: calc(100% - 20px);
   white-space: nowrap;
   overflow: hidden;
@@ -160,13 +154,13 @@
 }
 
 .item:hover .headshot {
-  outline: 10px solid #066FA8;
+  outline: 10px solid #066fa8;
   outline-offset: -10px;
 }
 
-.item:hover .p-name-title, 
-.item:hover .p-inst{
-  color: #066FA8;
+.item:hover .p-name-title,
+.item:hover .p-inst {
+  color: #066fa8;
 }
 
 /* ----------------------------------------------- PARTICIPANT PAGE ----------------------------------------------- */
@@ -179,7 +173,7 @@
   font-weight: bold;
   font-size: 36px;
   padding-left: 10px;
-  border-left: 5px solid #066FA8;
+  border-left: 5px solid #066fa8;
 }
 .participant-detail-subtitle {
   padding-top: 10px;
@@ -202,7 +196,7 @@
   /* margin-top: 30px; */
 }
 .md hl {
-  color: #066FA8;
+  color: #066fa8;
   font-weight: bold;
 }
 .md blockquote {
@@ -214,8 +208,6 @@
   margin-left: 0px;
   padding-left: 30px;
   border-left: 5px solid lightgray;
-  /* background-color: lightgray; */
-  /* font-weight: 400; */
 }
 
 .h-splitter {
@@ -228,11 +220,8 @@
   font-family: Roboto Condensed, Helvetica, sans-serif, Arial;
   width: calc(100% - 20px);
   margin-left: 10px;
-  /* padding-left: 20px; */
-  /* padding-right: 20px; */
   padding-top: 50px;
   padding-bottom: 50px;
-  /* background-color: lightgray; */
 }
 .prev-button,
 .next-button {
@@ -244,7 +233,7 @@
 }
 .prev-button:hover,
 .next-button:hover {
-  color: #066FA8;
+  color: #066fa8;
   /* border-bottom: 4px solid #066FA8; */
 }
 .prev-button-hidden {
@@ -262,14 +251,13 @@
   margin-right: 20px;
 
   padding-top: 20px;
-  /* padding-left: 10px; */
-  /* padding-right: 10px; */
 
   line-height: 28px;
   font-weight: bold;
 }
 
-.footer a:link, .footer a:visited {
+.footer a:link,
+.footer a:visited {
   text-decoration: none;
   color: black;
 }
@@ -280,8 +268,8 @@
 }
 
 .footer a:hover {
-  color: #066FA8;
-  border-bottom: 4px solid #066FA8;
+  color: #066fa8;
+  border-bottom: 4px solid #066fa8;
 }
 
 .footer img {
