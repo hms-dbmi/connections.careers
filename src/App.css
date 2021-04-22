@@ -129,13 +129,24 @@
   transition: color ease-out 0.1s;
   /* font-size: 1px; */
 }
+.p-inst {
+  width: calc(100% - 20px);
+  font-size: 15px;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: black;
+  transition: color ease-out 0.1s;
+}
 
 .item:hover .headshot {
   outline: 10px solid #066FA8;
   outline-offset: -10px;
 }
 
-.item:hover .p-name-title {
+.item:hover .p-name-title, 
+.item:hover .p-inst{
   color: #066FA8;
 }
 

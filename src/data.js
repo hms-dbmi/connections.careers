@@ -39,7 +39,8 @@ export const data = [
         title: 'PhD',
         csTitle: 'Alexandra Signoriello, PhD, Senior Data Scientist, Boston Consulting Group',
         csYt: 'mTJUFuavxV8',
-        csBody: Alexandra_Signoriello_md
+        csBody: Alexandra_Signoriello_md,
+        institution: 'Yale University'
     },
     {
         name: 'Cameron Coleman',
@@ -47,7 +48,8 @@ export const data = [
         title: 'MD, MPS',
         csTitle: 'Cameron Coleman, Jr., MD, MPS',
         csYt: '9Jop1XS18dM',
-        csBody: Cameron_Coleman_md
+        csBody: Cameron_Coleman_md,
+        institution: 'University of North Carolina Chapel Hill'
     },
     {
         name: 'Casey Overby Taylor',
@@ -55,7 +57,8 @@ export const data = [
         title: 'PhD',
         csTitle: 'Casey Overby Taylor, PhD, Assistant Professor, Johns Hopkins University',
         csYt: 'cqRkz8CwMD8',
-        csBody: Casey_Overby_Taylor_md
+        csBody: Casey_Overby_Taylor_md,
+        institution: 'University of Washington'
     },
     {
         name: 'Chase Parsons',
@@ -63,7 +66,8 @@ export const data = [
         title: 'DO, MBI, FAAP',
         csTitle: 'Chase R. Parsons, DO, MBI, FAAP',
         csYt: 'cnvqiDKrUys',
-        csBody: Chase_Parsons_md
+        csBody: Chase_Parsons_md,
+        institution: 'Harvard University (Medical School)'
     },
     {
         name: 'Jonathan Lustgarten',
@@ -71,7 +75,8 @@ export const data = [
         title: 'MS, PhD, VMD',
         csTitle: 'Jonathan Lustgarten, PhD, Doctor of Veterinary Medicine; Senior Biomedical Informatics Specialist, VCA, Inc.',
         csBody: Jonathan_Lustgarten_md,
-        csYt: 'unJa5u7hZbs'
+        csYt: 'unJa5u7hZbs',
+        institution: 'University of Pittsburgh'
     },
     {
         name: 'Kimberly Shoenbill',
@@ -79,7 +84,8 @@ export const data = [
         title: 'MD, PhD, MS',
         csBody: Kimberly_Shoenbill_md,
         csTitle: 'Kimberly Shoenbill, MD, PhD, MS, Assistant Professor, University of North Carolina School of Medicine',
-        csYt: 'Jjih86zVemU'
+        csYt: 'Jjih86zVemU',
+        institution: 'University of Wisconsin Madison'
     },
     {
         name: 'Lance Pflieger',
@@ -87,7 +93,8 @@ export const data = [
         title: 'PhD',
         csBody: Lance_Pflieger_md,
         csTitle: 'Lance Pflieger, PhD, Staff Scientist, City of Hope, Comprehensive Cancer Institute',
-        csYt: 'kCG7kK8RKXo'
+        csYt: 'kCG7kK8RKXo',
+        institution: 'University of Utah'
     },
     {
         name: 'Laura Anderson',
@@ -95,7 +102,8 @@ export const data = [
         title: 'PhD',
         csBody: Laura_Anderson_md,
         csTitle: 'Laura Anderson, PhD, Assistant Professor, University of Buffalo School of Nursing, Licensed Psychologist, Director of PULSE Healthy Weight Research Team',
-        csYt: 'f8rQb5haoYE'
+        csYt: 'f8rQb5haoYE',
+        institution: 'State University of New York at Buffalo'
     },
     {
         name: 'Maureen Hillenmeyer',
@@ -103,7 +111,8 @@ export const data = [
         title: 'PhD',
         csBody: Maureen_Hillenmeyer_md,
         csTitle: 'Maureen Hillenmeyer, PhD, CEO, Hexagon Bio',
-        csYt: 'iJc06hjUWyE'
+        csYt: 'iJc06hjUWyE',
+        institution: 'Stanford University'
     },
     {
         name: 'Nate Apathy',
@@ -111,7 +120,8 @@ export const data = [
         title: 'PhD Student',
         csBody: Nate_Apathy_md,
         csTitle: 'Nate Apathy, PhD Student, Indiana University',
-        csYt: '2W2GpOHy37Y'
+        csYt: '2W2GpOHy37Y',
+        institution: 'Indiana University/Regenstrief Institute'
     },
     {
         name: 'Peter Embi',
@@ -119,7 +129,8 @@ export const data = [
         title: 'MD, MS, FACP, FACMI, FAMIA',
         csBody: Peter_Embi_md,
         csTitle: 'Peter Embi, MD, President & CEO, Regenstrief Institute, Vice President for Learning Health Systems, IU Health',
-        csYt: 'GgqC75tN3HI'
+        csYt: 'GgqC75tN3HI',
+        institution: 'Oregon Health & Science University'
     },
     {
         name: 'Rimma Perotte',
@@ -127,7 +138,8 @@ export const data = [
         title: 'PhD',
         csBody: Rimma_Perotte_md,
         csTitle: 'Rimma Perotte, PhD, Program Director for Research Science, Value Institute, New York-Presbyterian Hospital',
-        csYt: 'gyZhXJ7gMm4'
+        csYt: 'gyZhXJ7gMm4',
+        institution: ' Columbia University Irving Medical Center'
     },
     {
         name: 'Sharon Chiang',
@@ -135,7 +147,8 @@ export const data = [
         title: 'MD, PhD',
         csBody: Sharon_Chiang_md,
         csTitle: 'Sharon Chiang, MD, PhD, Resident Physician, University of California',
-        csYt: 'yZA5Fbo56SQ'
+        csYt: 'yZA5Fbo56SQ',
+        institution: 'Rice University'
     },
     {
         name: 'Siddharth Pratap',
@@ -143,7 +156,8 @@ export const data = [
         title: 'PhD',
         csBody: Siddharth_Pratap_md,
         csTitle: 'Siddharth Pratap, PhD, MS, Associate Professor, Meharry Medical College',
-        csYt: 'NnymY5QCtM0'
+        csYt: 'NnymY5QCtM0',
+        institution: 'Vanderbilt University'
     },
     {
         name: 'Zachary Lipton',
@@ -151,7 +165,8 @@ export const data = [
         title: 'PhD',
         csBody: Zachary_Lipton_md,
         csTitle: 'Zachary Lipton, PhD, Staff Scientist, Assistant Professor, Carnegie Mellon University',
-        csYt: 'viT61nG_f6g'
+        csYt: 'viT61nG_f6g',
+        institution: 'University of California San Diego'
     },
     {
         name: 'Zhiyong Lu',
@@ -159,6 +174,7 @@ export const data = [
         title: 'PhD',
         csBody: Zhiyong_Lu_md,
         csTitle: 'Zhiyong Lu, PhD, Deputy Director for Literature Search at the National Center for Biotechnology (NCBI)',
-        csYt: 'NXt6qKuG0HY'
+        csYt: 'NXt6qKuG0HY',
+        institution: 'University of Colorado Anschutz Medical Campus'
     },
 ]

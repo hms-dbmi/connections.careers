@@ -77,7 +77,17 @@ function App(props) {
         {/* --------------- LIST OF PARTICIPANTS --------------- */}
         {selectedMenu === "/home" ? (
           <div className="home">
-            <img className="home-img" src={home}></img>
+            <div className="participant-detail-video">
+              <iframe
+                width="100%"
+                height="100%"
+                src={'https://www.youtube.com/embed/sigaui40EyE'}
+                title={'Connections: Career Paths in Biomedical Informatics'}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
             <p className="home-text">
               (placeholder) Trainees from across the 16 National of Library of
               Medicine (NLM) university-based Biomedical Informatics and Data
@@ -105,6 +115,7 @@ function App(props) {
                 <a className="item" href={"#/" + (i + 1)} key={d.name}>
                   <img className="headshot" src={d.img} />
                   <div className="p-name-title">{getNameTitle(d)}</div>
+                  <div className='p-inst'>{d.institution}</div>
                 </a>
               ))}
             </div>
