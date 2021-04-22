@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/connections.careers/static/css/main.68f54b1a.chunk.css",
+    "main.js": "/connections.careers/static/js/main.e9127a7c.chunk.js",
+    "main.js.map": "/connections.careers/static/js/main.e9127a7c.chunk.js.map",
+    "runtime-main.js": "/connections.careers/static/js/runtime-main.474bb74a.js",
+    "runtime-main.js.map": "/connections.careers/static/js/runtime-main.474bb74a.js.map",
+    "static/js/2.5ac8ea20.chunk.js": "/connections.careers/static/js/2.5ac8ea20.chunk.js",
+    "static/js/2.5ac8ea20.chunk.js.map": "/connections.careers/static/js/2.5ac8ea20.chunk.js.map",
+    "index.html": "/connections.careers/index.html",
+    "static/css/main.68f54b1a.chunk.css.map": "/connections.careers/static/css/main.68f54b1a.chunk.css.map",
+    "static/js/2.5ac8ea20.chunk.js.LICENSE.txt": "/connections.careers/static/js/2.5ac8ea20.chunk.js.LICENSE.txt",
+    "static/media/Alexandra Signoriello.0e8cef21.jpg": "/connections.careers/static/media/Alexandra Signoriello.0e8cef21.jpg",
+    "static/media/Cameron Coleman.1146e264.jpg": "/connections.careers/static/media/Cameron Coleman.1146e264.jpg",
+    "static/media/Casey Overby Taylor.5bb972b1.jpg": "/connections.careers/static/media/Casey Overby Taylor.5bb972b1.jpg",
+    "static/media/Chase Parsons.b15e7ce3.jpg": "/connections.careers/static/media/Chase Parsons.b15e7ce3.jpg",
+    "static/media/Jonathan Lustgarten.93dc3509.jpg": "/connections.careers/static/media/Jonathan Lustgarten.93dc3509.jpg",
+    "static/media/Kimberly Shoenbill.8186962f.jpg": "/connections.careers/static/media/Kimberly Shoenbill.8186962f.jpg",
+    "static/media/Lance Pflieger.5009e65d.jpg": "/connections.careers/static/media/Lance Pflieger.5009e65d.jpg",
+    "static/media/Laura Anderson.30c60c31.jpg": "/connections.careers/static/media/Laura Anderson.30c60c31.jpg",
+    "static/media/Maureen Hillenmeyer.1054ba4d.jpg": "/connections.careers/static/media/Maureen Hillenmeyer.1054ba4d.jpg",
+    "static/media/Nate Apathy.7799eedb.jpg": "/connections.careers/static/media/Nate Apathy.7799eedb.jpg",
+    "static/media/Peter Embi.f7c20f7b.jpg": "/connections.careers/static/media/Peter Embi.f7c20f7b.jpg",
+    "static/media/Rimma Perotte.666dae5e.jpg": "/connections.careers/static/media/Rimma Perotte.666dae5e.jpg",
+    "static/media/Sharon Chiang.9b3eec13.jpg": "/connections.careers/static/media/Sharon Chiang.9b3eec13.jpg",
+    "static/media/Siddharth Pratap.37599e92.jpg": "/connections.careers/static/media/Siddharth Pratap.37599e92.jpg",
+    "static/media/Zachary Lipton.eee36148.jpg": "/connections.careers/static/media/Zachary Lipton.eee36148.jpg",
+    "static/media/Zhiyong Lu.b243cc18.jpg": "/connections.careers/static/media/Zhiyong Lu.b243cc18.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.474bb74a.js",
+    "static/js/2.5ac8ea20.chunk.js",
+    "static/css/main.68f54b1a.chunk.css",
+    "static/js/main.e9127a7c.chunk.js"
+  ]
+}
