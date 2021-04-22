@@ -12,7 +12,7 @@ Kim proceeded to medical school at the University of Wisconsin (UW), which has a
 
 After graduating from medical school, Kim practiced family medicine for several years. She enjoyed developing relationships with patients and had a philosophy of always seeing the potential in every person and situation. 
 
-Transitioning to Biomedical Informatics
+## Transitioning to Biomedical Informatics
 
 In working at a clinic and treating patients over time, Kim would start to see patterns and observe correlations. But she was so busy seeing patients, there was never time to analyze these patterns, nor did she have the tools to do so. Yet her interest lingered, and Kim wanted to learn more about data and informatics in improving care.
 

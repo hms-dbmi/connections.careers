@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { HashRouter, BrowserRouter, Route } from 'react-router-dom';
+import { Switch, HashRouter, BrowserRouter, Route } from 'react-router-dom';
+import ScrollToTop from './ScrollToTop';
 
 ReactDOM.render(
   <HashRouter>
-    <Route component={App} />
+    <ScrollToTop>
+      <Switch>
+        <Route component={App} />
+      </Switch>
+    </ScrollToTop>
   </HashRouter>,
   document.getElementById('root')
 );

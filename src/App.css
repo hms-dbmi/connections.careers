@@ -42,7 +42,13 @@
 }
 .nav-link:hover {
   color: #AD192D;
-  border-bottom: 2px solid #AD192D;
+  border-bottom: 4px solid #AD192D;
+}
+
+.nav-link-selected {
+  font-weight: bold;
+  color: #AD192D;
+  border-bottom: 4px solid #AD192D;
 }
 
 .body {
@@ -71,6 +77,15 @@
 }
 
 /* ----------------------------------------------- LIST OF PARTICIPANTS ----------------------------------------------- */
+.participant-list-title {
+  font-family: Roboto Condensed, Helvetica, sans-serif, Arial;
+  font-weight: bold;
+  font-size: 36px;
+  margin: 20px; 
+  padding-left: 10px;
+  border-left: 5px solid #AD192D;
+}
+
 .gallery {
   margin: 20px;
   margin-right: 0px;
@@ -104,6 +119,139 @@
   transition: outline-color ease-out 0.1s;
 }
 
+.p-name-title {
+  /* 10px is for padding for text ends */
+  width: calc(100% - 20px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: black;
+  transition: color ease-out 0.1s;
+  /* font-size: 1px; */
+}
+
+.item:hover .headshot {
+  outline: 10px solid #AD192D;
+  outline-offset: -10px;
+}
+
+.item:hover .p-name-title {
+  color: #AD192D;
+}
+
+/* ----------------------------------------------- PARTICIPANT PAGE ----------------------------------------------- */
+.participant-detail {
+  margin: 20px;
+  margin-bottom: 40px;
+}
+.participant-detail-title {
+  font-family: Roboto Condensed, Helvetica, sans-serif, Arial;
+  font-weight: bold;
+  font-size: 36px;
+  padding-left: 10px;
+  border-left: 5px solid #AD192D;
+}
+.participant-detail-video {
+  margin-top: 20px;
+  width: 100%;
+  height: 540px;
+}
+.md {
+  font-family: Roboto, Helvetica, sans-serif, Arial;
+  font-size: 18px;
+  line-height: 26px;
+}
+.md h2 {
+  text-transform: capitalize;
+  /* margin-top: 30px; */
+}
+.md hl {
+  color: #AD192D;
+  font-weight: bold;
+}
+.md blockquote {
+  font-family: Roboto Condensed, Helvetica, sans-serif, Arial;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 32px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 30px;
+  border-left: 5px solid lightgray;
+  /* background-color: lightgray; */
+  /* font-weight: 400; */
+}
+
+.h-splitter {
+  border-top: 1px solid black;
+  margin-top: 40px;
+  margin-left: 10px;
+  width: calc(100% - 20px);
+}
+.next-prev-button {
+  font-family: Roboto Condensed, Helvetica, sans-serif, Arial;
+  width: calc(100% - 20px);
+  margin-left: 10px;
+  /* padding-left: 20px; */
+  /* padding-right: 20px; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* background-color: lightgray; */
+}
+.prev-button,
+.next-button {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+.prev-button:hover,
+.next-button:hover {
+  color: #AD192D;
+  border-bottom: 4px solid #AD192D;
+}
+.prev-button-hidden {
+  opacity: 0;
+}
+.next-button {
+  float: right;
+}
+/* ----------------------------------------------- FOOTER ----------------------------------------------- */
+.footer {
+  height: 120px;
+  border-top: 3px solid black;
+
+  margin-left: 10px;
+  margin-right: 10px;
+
+  padding: 10px;
+
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.footer a:link, .footer a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.footer a {
+  transition: color ease-out 0.1s;
+  border-bottom: 2px solid black;
+}
+
+.footer a:hover {
+  color: #AD192D;
+  border-bottom: 4px solid #AD192D;
+}
+
+.footer img {
+  float: right;
+  display: block;
+}
+
+/* ----------------------------------------------- RESPONSIVE ----------------------------------------------- */
 @media screen and (max-width: 1000px) {
   .nav {
     margin-top: 20px;
@@ -135,87 +283,4 @@
   .participant-detail-video iframe {
     height: 280px !important;
   }
-}
-
-.p-name-title {
-  /* 10px is for padding for text ends */
-  width: calc(100% - 20px);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  color: black;
-  transition: color ease-out 0.1s;
-  /* font-size: 1px; */
-}
-
-.item:hover .headshot {
-  outline: 10px solid #AD192D;
-  outline-offset: -10px;
-}
-
-.item:hover .p-name-title {
-  color: #AD192D;
-}
-
-/* ----------------------------------------------- PARTICIPANT PAGE ----------------------------------------------- */
-.participant-detail {
-  margin: 20px;
-  margin-bottom: 40px;
-}
-.participant-detail-title {
-  font-family: Roboto Condensed, Helvetica, sans-serif, Arial;
-  font-weight: bold;
-  font-size: 26px;
-}
-.participant-detail-video {
-  margin-top: 20px;
-  width: 100%;
-  height: 540px;
-}
-.md {
-  font-family: Roboto, Helvetica, sans-serif, Arial;
-  font-size: 18px;
-  line-height: 26px;
-}
-.md h2 {
-  text-transform: capitalize;
-}
-.md hl {
-  color: #AD192D;
-  font-weight: bold;
-}
-.md blockquote {
-  font-family: Roboto Condensed, Helvetica, sans-serif, Arial;
-  font-style: italic;
-  font-size: 24px;
-  line-height: 32px;
-  /* font-weight: 400; */
-}
-/* ----------------------------------------------- FOOTER ----------------------------------------------- */
-.footer {
-  height: 120px;
-  border-top: 3px solid black;
-
-  margin-left: 10px;
-  margin-right: 10px;
-
-  padding: 10px;
-
-  line-height: 30px;
-  font-weight: bold;
-}
-
-.footer a:link, .footer a:visited {
-  text-decoration: none;
-  color: black;
-}
-
-.footer a {
-  transition: color ease-out 0.1s;
-  border-bottom: 2px solid black;
-}
-
-.footer a:hover {
-  color: #AD192D;
-  border-bottom: 2px solid #AD192D;
 }
