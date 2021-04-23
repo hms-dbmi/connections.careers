@@ -40,7 +40,9 @@ export const data = [
         csTitle: 'Alexandra Signoriello, PhD, Senior Data Scientist, Boston Consulting Group',
         csYt: 'mTJUFuavxV8',
         csBody: Alexandra_Signoriello_md,
-        institution: 'Yale University'
+        institution: 'Yale University',
+        role: 'Predoctoral Trainee',
+        link: 'https://medicine.yale.edu/ycmi/'
     },
     {
         name: 'Cameron Coleman',
@@ -49,7 +51,9 @@ export const data = [
         csTitle: 'Cameron Coleman, Jr., MD, MPS',
         csYt: '9Jop1XS18dM',
         csBody: Cameron_Coleman_md,
-        institution: 'University of North Carolina Chapel Hill'
+        institution: 'University of North Carolina Chapel Hill',
+        role: 'Postdoctoral Trainee',
+        link: 'http://chip.unc.edu/'
     },
     {
         name: 'Casey Overby Taylor',
@@ -58,7 +62,9 @@ export const data = [
         csTitle: 'Casey Overby Taylor, PhD, Assistant Professor, Johns Hopkins University',
         csYt: 'cqRkz8CwMD8',
         csBody: Casey_Overby_Taylor_md,
-        institution: 'University of Washington'
+        institution: 'University of Washington',
+        role: 'Predoctoral Trainee',
+        link: 'http://bime.uw.edu/'
     },
     {
         name: 'Chase Parsons',
@@ -67,7 +73,9 @@ export const data = [
         csTitle: 'Chase R. Parsons, DO, MBI, FAAP',
         csYt: 'cnvqiDKrUys',
         csBody: Chase_Parsons_md,
-        institution: 'Harvard Medical School'
+        institution: 'Harvard Medical School',
+        role: 'Postdoctoral Trainee',
+        link: 'https://dbmi.hms.harvard.edu/education/nlm-biomedical-informatics-data-science-fellowship'
     },
     {
         name: 'Jonathan Lustgarten',
@@ -76,7 +84,9 @@ export const data = [
         csTitle: 'Jonathan Lustgarten, PhD, Doctor of Veterinary Medicine; Senior Biomedical Informatics Specialist, VCA, Inc.',
         csBody: Jonathan_Lustgarten_md,
         csYt: 'unJa5u7hZbs',
-        institution: 'University of Pittsburgh'
+        institution: 'University of Pittsburgh',
+        role: 'Predoctoral Trainee',
+        link: 'https://www.dbmi.pitt.edu/'
     },
     {
         name: 'Kimberly Shoenbill',
@@ -85,7 +95,9 @@ export const data = [
         csBody: Kimberly_Shoenbill_md,
         csTitle: 'Kimberly Shoenbill, MD, PhD, MS, Assistant Professor, University of North Carolina School of Medicine',
         csYt: 'Jjih86zVemU',
-        institution: 'University of Wisconsin Madison'
+        institution: 'University of Wisconsin Madison',
+        role: 'Postdoctoral Trainee',
+        link: 'http://www.cibm.wisc.edu/'
     },
     {
         name: 'Lance Pflieger',
@@ -94,7 +106,9 @@ export const data = [
         csBody: Lance_Pflieger_md,
         csTitle: 'Lance Pflieger, PhD, Staff Scientist, City of Hope, Comprehensive Cancer Institute',
         csYt: 'kCG7kK8RKXo',
-        institution: 'University of Utah'
+        institution: 'University of Utah',
+        role: 'Predoctoral Trainee',
+        link: 'https://medicine.utah.edu/dbmi/'
     },
     {
         name: 'Laura Anderson',
@@ -103,7 +117,9 @@ export const data = [
         csBody: Laura_Anderson_md,
         csTitle: 'Laura Anderson, PhD, Assistant Professor, University of Buffalo School of Nursing, Licensed Psychologist, Director of PULSE Healthy Weight Research Team',
         csYt: 'f8rQb5haoYE',
-        institution: 'State University of New York at Buffalo'
+        institution: 'State University of New York at Buffalo',
+        role: 'Postdoctoral Trainee',
+        link: 'http://medicine.buffalo.edu/departments/biomedical-informatics/education.html'
     },
     {
         name: 'Maureen Hillenmeyer',
@@ -112,7 +128,9 @@ export const data = [
         csBody: Maureen_Hillenmeyer_md,
         csTitle: 'Maureen Hillenmeyer, PhD, CEO, Hexagon Bio',
         csYt: 'iJc06hjUWyE',
-        institution: 'Stanford University'
+        institution: 'Stanford University',
+        role: 'Predoctoral Trainee',
+        link: 'http://med.stanford.edu/bmi.html'
     },
     {
         name: 'Nate Apathy',
@@ -121,7 +139,9 @@ export const data = [
         csBody: Nate_Apathy_md,
         csTitle: 'Nate Apathy, PhD Student, Indiana University',
         csYt: '2W2GpOHy37Y',
-        institution: 'Indiana University/Regenstrief Institute'
+        institution: 'Indiana University/Regenstrief Institute',
+        role: 'Predoctoral Trainee',
+        link: 'https://www.regenstrief.org/fellowships/public-population-health-informatics-phi-fellowships/'
     },
     {
         name: 'Peter Embi',
@@ -130,7 +150,9 @@ export const data = [
         csBody: Peter_Embi_md,
         csTitle: 'Peter Embi, MD, President & CEO, Regenstrief Institute, Vice President for Learning Health Systems, IU Health',
         csYt: 'GgqC75tN3HI',
-        institution: 'Oregon Health & Science University'
+        institution: 'Oregon Health & Science University',
+        role: 'Predoctoral Trainee',
+        link: 'https://www.ohsu.edu/school-of-medicine/medical-informatics-and-clinical-epidemiology'
     },
     {
         name: 'Rimma Perotte',
@@ -139,7 +161,9 @@ export const data = [
         csBody: Rimma_Perotte_md,
         csTitle: 'Rimma Perotte, PhD, Program Director for Research Science, Value Institute, New York-Presbyterian Hospital',
         csYt: 'gyZhXJ7gMm4',
-        institution: ' Columbia University Irving Medical Center'
+        institution: ' Columbia University Irving Medical Center',
+        role: 'Predoctoral Trainee',
+        link: 'https://www.dbmi.columbia.edu/'
     },
     {
         name: 'Sharon Chiang',
@@ -148,7 +172,9 @@ export const data = [
         csBody: Sharon_Chiang_md,
         csTitle: 'Sharon Chiang, MD, PhD, Resident Physician, University of California',
         csYt: 'yZA5Fbo56SQ',
-        institution: 'Rice University'
+        institution: 'Rice University',
+        role: 'Predoctoral Trainee',
+        link: 'https://www.gulfcoastconsortia.org/home/training/bmi-nlm/'
     },
     {
         name: 'Siddharth Pratap',
@@ -157,7 +183,9 @@ export const data = [
         csBody: Siddharth_Pratap_md,
         csTitle: 'Siddharth Pratap, PhD, MS, Associate Professor, Meharry Medical College',
         csYt: 'NnymY5QCtM0',
-        institution: 'Vanderbilt University'
+        institution: 'Vanderbilt University',
+        role: 'Predoctoral Trainee',
+        link: 'https://www.vumc.org/dbmi/'
     },
     {
         name: 'Zachary Lipton',
@@ -166,7 +194,9 @@ export const data = [
         csBody: Zachary_Lipton_md,
         csTitle: 'Zachary Lipton, PhD, Staff Scientist, Assistant Professor, Carnegie Mellon University',
         csYt: 'viT61nG_f6g',
-        institution: 'University of California San Diego'
+        institution: 'University of California San Diego',
+        role: 'Predoctoral Trainee',
+        link: 'https://medschool.ucsd.edu/som/dbmi/education/NLM-Fellowship-Program/Pages/default.aspx'
     },
     {
         name: 'Zhiyong Lu',
@@ -175,6 +205,8 @@ export const data = [
         csBody: Zhiyong_Lu_md,
         csTitle: 'Zhiyong Lu, PhD, Deputy Director for Literature Search at the National Center for Biotechnology (NCBI)',
         csYt: 'NXt6qKuG0HY',
-        institution: 'University of Colorado Anschutz Medical Campus'
+        institution: 'University of Colorado Anschutz Medical Campus',
+        role: 'Predoctoral Trainee',
+        link: 'http://compbio.ucdenver.edu/'
     },
 ]

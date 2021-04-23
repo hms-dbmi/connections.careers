@@ -157,6 +157,10 @@
   text-overflow: ellipsis;
   color: black;
   transition: color ease-out 0.1s;
+  /* font-style: italic; */
+}
+.p-inst-prefix {
+  /* font-style: normal; */
 }
 
 .item:hover .headshot {
@@ -185,7 +189,16 @@
   padding-top: 10px;
   font-weight: 400;
   font-size: 28px;
-  font-style: italic;
+  /* font-style: italic; */
+}
+.participant-detail-subtitle a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px dotted black;
+}
+.participant-detail-subtitle a:hover {
+  color: #066FA8;
+  border-bottom: 4px solid #066FA8;
 }
 .participant-detail-video {
   margin-top: 20px;
