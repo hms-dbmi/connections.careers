@@ -1,32 +1,30 @@
-import { data } from "./data";
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import gfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
-import * as qs from "qs";
+import { Profiles } from "./Data";
 import "./App.css";
+import { HelmetComponent } from "./Helmet";
 
 function App(props) {
-  // page path from URL
-  const urlParams = qs.parse(props.location.search, {
-    ignoreQueryPrefix: true,
-  });
-  const curPage = props.location.pathname;
+  // Page path from the URL (e.g., "/home" or "/1" or "/home/" or "/1/")
+  const curPage = props.location.pathname.split('/')?.[1];
 
-  const participantsPages = data.map((d, i) => `/${i + 1}`);
-  const allPages = ["/home", "/profiles", "/about"].concat(participantsPages);
-  const selectedMenu =
-    curPage && allPages.find((d) => d === curPage) ? curPage : allPages[0];
+  // Page routing
+  const detailPages = Profiles.map((d, i) => `${i + 1}`);
+  const allPages = ["home", "profiles", "about"].concat(detailPages);
+  const selectedPage = curPage && allPages.find((d) => d === curPage) ? curPage : "home";
 
   const getNameTitle = (d) => d.name + (d.title ? `, ${d.title}` : "");
 
   // DEBUG
-  // console.log(props.location, curPage);//.split('/')[1]);
+  console.log(props.location, curPage);//.split('/')[1]);
 
   return (
     <div className="app">
+      <HelmetComponent profile={Profiles[+curPage - 1]} />
       <div className="header">
-        <a className="title" href="#/home">
+        <a className="title" href="/home">
           Connections&nbsp;
         </a>
         <span className="subtitle">
@@ -36,27 +34,27 @@ function App(props) {
           <a
             className={
               "nav-link " +
-              (selectedMenu === "/home" ? "nav-link-selected" : "")
+              (selectedPage === "home" ? "nav-link-selected" : "")
             }
-            href="#/home"
+            href="/home"
           >
             Home
           </a>
           <a
             className={
               "nav-link " +
-              (selectedMenu === "/profiles" ? "nav-link-selected" : "")
+              (selectedPage === "profiles" ? "nav-link-selected" : "")
             }
-            href="#/profiles"
+            href="/profiles"
           >
             Profiles
           </a>
           <a
             className={
               "nav-link " +
-              (selectedMenu === "/about" ? "nav-link-selected" : "")
+              (selectedPage === "about" ? "nav-link-selected" : "")
             }
-            href="#/about"
+            href="/about"
           >
             About
           </a>
@@ -64,7 +62,7 @@ function App(props) {
       </div>
       <div className="body">
         {/* --------------- HOME --------------- */}
-        {selectedMenu === "/home" ? (
+        {selectedPage === "home" ? (
           <div className="home">
             <p className="home-title plain-text">
               This video project documents the training experiences of
@@ -127,7 +125,7 @@ function App(props) {
           </div>
         ) : null}
         {/* --------------- ABOUT --------------- */}
-        {selectedMenu === "/about" ? (
+        {selectedPage === "about" ? (
           <div className="about">
             <p className="about-text plain-text">
               Connections is funded by the National Library of Medicine
@@ -172,13 +170,13 @@ function App(props) {
           </div>
         ) : null}
         {/* --------------- LIST OF PARTICIPANTS --------------- */}
-        {selectedMenu === "/profiles" ? (
+        {selectedPage === "profiles" ? (
           <>
             <div className="participant-list-title">Profiles</div>
             <div className="gallery">
-              {data.map((d, i) => (
+              {Profiles.map((d, i) => (
                 // <div className='item' onClick={() => {window.open(pkg.homepage + '#/' + (i + 1) + '', "_self")}} key={d.name}>
-                <a className="item" href={"#/" + (i + 1)} key={d.name}>
+                <a className="item" href={"/" + (i + 1)} key={d.name}>
                   <img className="headshot" src={d.img} />
                   <div className="p-name-title">{getNameTitle(d)}</div>
                   <div className="p-inst">
@@ -191,20 +189,20 @@ function App(props) {
           </>
         ) : null}
         {/* --------------- PARTICIPANTS DETAIL --------------- */}
-        {participantsPages.includes(curPage) ? (
+        {detailPages.includes(curPage) ? (
           <>
             <div key={curPage} className="participant-detail">
               <div className="participant-detail-title">
-                {data[+curPage.split("/")[1] - 1].csTitle}
+                {Profiles[+curPage - 1].csTitle}
                 <div className="participant-detail-subtitle">
-                  {`Trained as a ${data[
-                    +curPage.split("/")[1] - 1
+                  {`Trained as a ${Profiles[
+                    +curPage - 1
                   ].role.toLocaleLowerCase()} at `}
                   <a
                     target="_blank"
-                    href={data[+curPage.split("/")[1] - 1].link}
+                    href={Profiles[+curPage - 1].link}
                   >
-                    {data[+curPage.split("/")[1] - 1].institution}
+                    {Profiles[+curPage - 1].institution}
                   </a>
                 </div>
               </div>
@@ -213,9 +211,9 @@ function App(props) {
                   width="100%"
                   height="100%"
                   src={`https://www.youtube.com/embed/${
-                    data[+curPage.split("/")[1] - 1].csYt
+                    Profiles[+curPage - 1].csYt
                   }`}
-                  title={data[+curPage.split("/")[1] - 1].csTitle}
+                  title={Profiles[+curPage - 1].csTitle}
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -226,30 +224,30 @@ function App(props) {
                   className="md"
                   remarkPlugins={[gfm]}
                   rehypePlugins={[rehypeRaw]}
-                  children={data[+curPage.split("/")[1] - 1].csBody}
+                  children={Profiles[+curPage - 1].csBody}
                 />
               </div>
             </div>
             <div className="h-splitter" />
             <div className="next-prev-button">
-              {0 !== +curPage.split("/")[1] - 1 ? (
+              {0 !== +curPage - 1 ? (
                 <a
                   className="prev-button"
-                  href={`#/${+curPage.split("/")[1] - 1}`}
+                  href={`/${+curPage - 1}`}
                 >
-                  {`← Previous: ${data[+curPage.split("/")[1] - 2].name}`}
+                  {`← Previous: ${Profiles[+curPage - 2].name}`}
                 </a>
               ) : null}
               {/* Just to reserve proper height */}
-              {0 === +curPage.split("/")[1] - 1 ? (
+              {0 === +curPage - 1 ? (
                 <a className="prev-button prev-button-hidden">{"-"}</a>
               ) : null}
-              {data.length - 1 !== +curPage.split("/")[1] - 1 ? (
+              {Profiles.length - 1 !== +curPage - 1 ? (
                 <a
                   className="next-button"
-                  href={`#/${+curPage.split("/")[1] + 1}`}
+                  href={`/${+curPage + 1}`}
                 >
-                  {`Next: ${data[+curPage.split("/")[1]].name} →`}
+                  {`Next: ${Profiles[+curPage].name} →`}
                 </a>
               ) : null}
             </div>
