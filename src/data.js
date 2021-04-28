@@ -32,7 +32,7 @@ import { Siddharth_Pratap_md } from "./rsc/Siddharth Pratap.js";
 import { Zachary_Lipton_md } from "./rsc/Zachary Lipton.js";
 import { Zhiyong_Lu_md } from "./rsc/Zhiyong Lu.js";
 
-export const data = [
+export const Profiles = [
   {
     name: "Alexandra Signoriello",
     img: Alexandra_Signoriello,
