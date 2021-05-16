@@ -226,6 +226,13 @@
   /* font-weight: 400; */
 }
 
+.release-data-desc {
+  position: relative;
+  width: 100%;
+  text-align: right;
+  margin-top: 30px;
+  font-size: 18px;
+}
 .h-splitter {
   border-top: 1px solid black;
   margin-top: 40px;
@@ -278,17 +285,21 @@
 }
 
 .footer a:link,
-.footer a:visited {
+.footer a:visited,
+.footer .alt-link {
   text-decoration: none;
   color: black;
 }
 
-.footer a {
+.footer a,
+.footer .alt-link {
+  cursor: pointer;
   transition: color ease-out 0.1s;
   border-bottom: 2px dotted black;
 }
 
-.footer a:hover {
+.footer a:hover,
+.footer .alt-link:hover {
   color: #066fa8;
   border-bottom: 4px solid #066fa8;
 }

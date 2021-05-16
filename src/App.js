@@ -2,7 +2,7 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 import gfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
-import { Profiles } from "./Data";
+import { Profiles } from "./data";
 import "./App.css";
 import { HelmetComponent } from "./Helmet";
 
@@ -227,6 +227,9 @@ function App(props) {
                   children={Profiles[+curPage - 1].csBody}
                 />
               </div>
+              <div className="release-data-desc">
+                Trainee information current as of 2019.
+              </div>
             </div>
             <div className="h-splitter" />
             <div className="next-prev-button">
@@ -256,13 +259,13 @@ function App(props) {
       </div>
       <div className="footer">
         Produced at{" "}
-        <a href="https://dbmi.hms.harvard.edu/" target="_blank">
-          Harvard Medical School
-        </a>{" "}
-        with funding by the{" "}
-        <a href="https://www.nlm.nih.gov/" target="_blank">
-          National Library of Medicine
-        </a>
+          <span className='alt-link' onClick={() => window.open('https://dbmi.hms.harvard.edu/', '_blank')}>
+            Harvard Medical School
+          </span>{" "}
+          with funding by the{" "}
+          <span className='alt-link' onClick={() => window.open('https://www.nlm.nih.gov/', '_blank')}>
+            National Library of Medicine
+          </span>
         . All materials licensed under CC-BY 4.0.
       </div>
     </div>
