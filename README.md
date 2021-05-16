@@ -20,12 +20,16 @@ All video content is available on YouTube at https://www.youtube.com/playlist?li
 # Development
 
 Test the website locally:
+
 ```sh
 yarn install
 yarn start
 ```
 
-Deploy the website:
+To deploy the website, first build the react application:
+
 ```sh
-yarn deploy
+yarn build
 ```
+
+Then, you will be able to see a `/build` folder generated. Copy and paste all files and folders below `/build` to the AWS S3 bucket (s3://connections.careers).
