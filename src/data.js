@@ -198,7 +198,7 @@ export const Profiles = [
       "Siddharth Pratap, PhD, MS, Associate Professor, Meharry Medical College",
     csYt: "NnymY5QCtM0",
     institution: "Vanderbilt University",
-    role: "Predoctoral Fellow",
+    role: "Postdoctoral Fellow",
     link: "https://www.vumc.org/dbmi/",
   },
   {
