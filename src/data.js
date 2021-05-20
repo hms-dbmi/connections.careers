@@ -161,7 +161,7 @@ export const Profiles = [
       "Peter Embi, MD, President & CEO, Regenstrief Institute, Vice President for Learning Health Systems, IU Health",
     csYt: "GgqC75tN3HI",
     institution: "Oregon Health & Science University",
-    role: "Predoctoral Fellow",
+    role: "Postdoctoral Fellow",
     link:
       "https://www.ohsu.edu/school-of-medicine/medical-informatics-and-clinical-epidemiology",
   },
