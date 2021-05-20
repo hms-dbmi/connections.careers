@@ -11,7 +11,7 @@ After his first year of medical school Peter bought his first computer. He spent
 
 > “I thought, ‘Wow. There’s a field at this intersection of computers and healthcare. That’s kind of cool.’”
 
-At this point, Peter was completely focused on medical training, not informatics. Yet, as he explored residencies in internal medicine, he hoped to find a residency program with a medical informatics program. It turns out, he did his residency at Oregon Health Sciences, which also had informatics.
+At this point, Peter was completely focused on medical training, not informatics. Yet, as he explored residencies in internal medicine, he hoped to find a residency program with a medical informatics program. It turns out, he did his residency at Oregon Health & Science University, which also had an informatics program.
 
 During his residency, Peter interacted with the informatics group and worked on projects using technology to improve medical education. In taking on his chief residency, Peter wanted to do even more in informatics. He enrolled in a fellowship and a master’s program in medical informatics. His thesis, which he worked on as electronic health records (EHRs) were being adopted, was about the transition from paper-based documents to computer-based records. 
 
